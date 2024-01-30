@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Form generator</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="block">
+    <h2>Выберите тест:</h2>
+    <div class="form_radio_btn">
+        <input id="radio-1" type="radio" name="test" value="formOne">
+        <label for="radio-1">Тест №1</label>
+    </div>
+    <div class="form_radio_btn">
+        <input  id="radio-2" type="radio" name="test" value="formTwo">
+        <label for="radio-2">Тест №2</label>
+    </div>
+    <div class="form_radio_btn">
+        <input id="radio-3" type="radio" name="test" value="formThree">
+        <label for="radio-3">Тест №3</label>
+    </div>
+    <h3 id="formTitle"></h3>
+    <p id="formDescription"></p>
+    <form id="formFields">
+        <!-- Поля формы будут вставлены здесь -->
+    </form>
+    <div id="formButtons">
+        <!-- Кнопки формы будут вставлены здесь -->
+    </div>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
